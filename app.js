@@ -15,11 +15,11 @@ function stopwatch() {
     inp3++;
     box3.innerHTML = inp3;
     inp4 = 0;
-    if (box3.innerHTML >= 10) {
+    if (box3.innerHTML >= 60) {
       inp2++;
       box2.innerHTML = inp2;
       inp3 = 0;
-      if (box2.innerHTML >= 10) {
+      if (box2.innerHTML >= 60) {
         inp1++;
         box1.innerHTML = inp1;
         inp2 = 0;
